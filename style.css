@@ -1,0 +1,97 @@
+ *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    header
+    {
+        height: 60px;
+        background-color: gray;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 40px 2px 40px;
+       font-size: 1.7em;
+    }
+    img
+    {
+     margin-bottom: 20px;   
+    }
+    .sidenav {
+  height: 150%;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 82px;
+  left: 0;
+  background-color: rgba(12, 11, 11, 0.788);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 7px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: lightgrey;
+  display: block;
+}
+.main {
+  margin: 100px 200px 20px 400px;
+  display: flex; 
+  justify-content: space-between; 
+}
+.box
+{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+.wrap
+{
+  padding: 5px;
+  margin: 40px 200px 20px 400px;
+  display: flex;
+  justify-content: space-between
+}
+.wrap img2
+{
+    float: left;
+}
+   
+.wrap p
+{
+    text-align: justify;
+    margin-left: 10px;
+    font-size: 14px;
+}
+hr
+{
+    margin-left: 400px;
+    width: 65%;
+}
+.form
+{
+    display: flex;
+    margin: 40px 290px 20px 400px;
+    justify-content: space-between;
+}
+label
+{
+    display: block; 
+}
+h2
+{
+    margin-left: 400px;
+}
+.table
+{
+margin-left: 400px;
+font-family: arial, sans-serif;
+   border-collapse: collapse;
+    width: 60%;
+}
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
